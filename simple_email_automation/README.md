@@ -2,6 +2,9 @@
 
 A simple, free email automation solution using Google Sheets and Apps Script. Send personalized emails to multiple recipients, track delivery status, and support multiple languages—all from within Google Sheets.
 
+https://docs.google.com/spreadsheets/d/1PuIJ-JGZPsnQ5J0FWaUTClge4voLJlMtjAkhlAS4y74/edit?gid=610081433#gid=610081433
+
+
 ## Features
 - Personalized email sending using spreadsheet data
 - HTML email template support with customizable styling
