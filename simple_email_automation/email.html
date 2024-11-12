@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f9;
+        color: #333;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .header h1 {
+        color: #007BFF;
+      }
+      .content p {
+        margin-bottom: 15px;
+      }
+      .footer {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 0.9em;
+        color: #777;
+      }
+      .footer a {
+        color: #007BFF;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1><?= greeting ?> <?= firstName ?> <?= lastName ?>!</h1>
+      </div>
+      <div class="content">
+        <p>
+          We're thrilled to connect with you and your team at <?= company ?>.
+        </p>
+        <p>
+          If you have any questions or need assistance, feel free to reply to this email or visit our website.
+        </p>
+      </div>
+      <div class="footer">
+        <p>
+          Thank you, <br />
+          The Team at <?= company ?>
+        </p>
+        <p>
+          <a href="https://example.com">Visit Our Website</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
